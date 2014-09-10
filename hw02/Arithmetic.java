@@ -89,8 +89,6 @@ System.out.println("The total cost after tax is $" + finalCost);
 public static double round(double a){
     double fin;
     fin = Math.round(100 * a) / 100d;
-    
-    
 return fin;    
 }
 }
