@@ -17,3 +17,26 @@ Then replace guess with
 (2*guess*guess*guess+x)/(3*guess*guess) = (2*9*9*9+27)/(3*9*9) = (2*729+27)/(243) = 6. 
 */
 
+import java.util.Scanner;
+
+public class Root{
+    
+    public static void main(String [] args){
+        
+        Scanner in = new Scanner(System.in);  //input
+       
+        System.out.print("Enter a double and I print its cube root-"); //prompting
+        
+        double x = in.nextDouble();
+        double guess = x/3; 
+        guess = (guess*guess*guess+x)/(3*guess*guess) ;
+        guess = (guess*guess*guess+x)/(3*guess*guess) ;
+        guess = (guess*guess*guess+x)/(3*guess*guess) ;
+        guess = (guess*guess*guess+x)/(3*guess*guess) ;
+        guess = (guess*guess*guess+x)/(3*guess*guess) ;
+        
+        guess = (2*guess*guess*guess+x)/(3*guess*guess);
+        
+        System.out.println("The cube root is " + guess) ;
+    }
+}
