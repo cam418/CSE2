@@ -47,7 +47,7 @@ public class Roulette {
    	        
    	        if(selectedNumber == rolledNumber){ // if a win...
    	            totalMoney += 36;    // win 36
-   	            totalMoney--;
+   	            
    	        }
    	        else{               // Loss (if no win)
    	            totalMoney--;       //decrease by 1
