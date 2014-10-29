@@ -6,7 +6,7 @@
 
 
 import java.util.Scanner;
-public class HW08{
+public class HW8{
     
     static int n = 0; //counter
     
@@ -28,7 +28,7 @@ public class HW08{
    public static char getInput(Scanner s, String a){            // 1st getinput
      char c;  
      s = new Scanner(System.in);        //reset scanner     
-     if(s.next().equals(s.next().charAt(0))){                // if the input is == to first char...
+     if(s.next().equals(s.next().charAt(0))){                // if the input is = to first char...
         c= s.next().charAt(0);
         
         if(c==a.charAt(0) || c == a.charAt(1)){
