@@ -68,7 +68,27 @@ there is exactly one repeated entry (for example, exactlyOneDup() is true for
     } 
     
     
+    
+    
+    
+    
+    
+    
+    
+    int [] array = {1,2,3};
+    
+    exactlyOneDup(array);
+    
+    
+    
+    
+    
+    
     public static boolean exactlyOneDup(int [] x){
+       
+       x[0]=100000;
+       
+       
         boolean value = false;
         int n = 0;
         if(hasDups(x)){                     // If no duplicates just return false

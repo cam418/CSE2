@@ -24,6 +24,7 @@ public class HelloWorld {
     System.out.println("#########################");
     System.out.println("test");
     
+    /*
     //test/testtest
     
     System.out.println( sumPow(4) );
@@ -67,7 +68,9 @@ i++;
       }
       System.out.println();
     }
-    
+  
+  */
+  
   }
   
 }

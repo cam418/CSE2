@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class Lab11{
     public static void main(String []  arg){
         
-        int [] list = new int [10];
+        int list[]= new int [10];
+        
+        
         
         System.out.print("Enter 10 ints- ");
         

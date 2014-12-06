@@ -19,7 +19,7 @@ public static void showHands(){
    
    do{ 
     
-     String [] suits = {"Clubs: ","Diamonds: ", "Hearts: ","Spades: "};
+    String [] suits = {"Clubs: ","Diamonds: ", "Hearts: ","Spades: "};
     String [] card = new String[5];
     
     hand = oneHand();
